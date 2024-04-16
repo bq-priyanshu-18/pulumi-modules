@@ -1,0 +1,10 @@
+name: stage
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: aws infa staging
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/cadca987-03d5-43f2-a82e-12905c5c0963.zip
